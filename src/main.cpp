@@ -409,8 +409,8 @@ int main(int argc, char **argv)
 	// Initializes the GLFW library
 	glfwInit();
 
-	std::cout << " This application demonstrates the use of normal maps to manipulate normals \n and provide finer details with lighting calculations.";
-	std::cout << "\n\n\n\n\n\n Use \"W, A, S and D\" to trun the plane inx and y axis.";
+	std::cout << "This application demonstrates the use of normal maps to manipulate normals \nand provide finer details with lighting calculations.";
+	std::cout << "\nUse \"W, A, S and D\" to turn the plane in the x and y axis. (A and D for yaw, W and S for pitch.)";
 
 	// Creates a window given (width, height, title, monitorPtr, windowPtr).
 	// Don't worry about the last two, as they have to do with controlling which monitor to display on and having a reference to other windows. Leaving them as nullptr is fine.
